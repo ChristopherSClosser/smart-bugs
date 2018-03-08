@@ -14,14 +14,16 @@ Version: *pre-beta 0.0.1a*
 ### Getting Started
 ---
 
-##### *Prerequisites*
+#### *Prerequisites*
 * [gcc 7+](https://packages.debian.org/sid/gcc-7)
 * [g++ 7+](https://packages.ubuntu.com/artful/g++-7)
 * [git](https://git-scm.com/)
 
+In order to compile, gcc and g++ version 7 or greater is required.
+
 `$ sudo apt install gcc-7 g++-7`
 
-Enter this line in order to use version 7 of [gcc and g++](https://askubuntu.com/a/837621)
+Enter this line in order to use version 7 of [gcc and g++](https://askubuntu.com/a/837621).
 
 `$ ls -la /usr/bin/ | grep -oP "[\S]*(gcc|g\+\+)(-[a-z]+)*[\s]" | xargs bash -c 'for link in ${@:1}; do sudo ln -s -f "/usr/bin/${link}-${0}" "/usr/bin/${link}"; done' 7`
 
