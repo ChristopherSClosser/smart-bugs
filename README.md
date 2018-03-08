@@ -53,5 +53,5 @@ Controls:
 
 * [Littlewolf](https://github.com/glouw/littlewolf)
 
-Littlewolf aims to be a very minimalistic software graphics
-engine reminiscent of the early wolfenstein and doom days.
+  *Littlewolf aims to be a very minimalistic software graphics
+engine reminiscent of the early wolfenstein and doom days.*
