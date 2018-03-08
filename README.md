@@ -21,7 +21,7 @@ Version: *pre-beta 0.0.1a*
 
 `$ sudo apt install gcc-7 g++-7`
 
-Enter this line in order version 7 of [gcc and g++](https://askubuntu.com/a/837621)
+Enter this line in order to use version 7 of [gcc and g++](https://askubuntu.com/a/837621)
 
 `$ ls -la /usr/bin/ | grep -oP "[\S]*(gcc|g\+\+)(-[a-z]+)*[\s]" | xargs bash -c 'for link in ${@:1}; do sudo ln -s -f "/usr/bin/${link}-${0}" "/usr/bin/${link}"; done' 7`
 
